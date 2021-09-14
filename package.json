@@ -1,6 +1,7 @@
 {
-  "name": "smallest-possible-build",
+  "name": "minimal-builds",
   "version": "0.0.0",
+  "private": true,
   "description": "A simple project showing the smallest possible builds possible",
   "main": "src/index.js",
   "scripts": {
@@ -10,7 +11,11 @@
     "clean": "rm -rf umd/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "mattquinlan440",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattquinlan440/minimal-builds.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "rollup": "2.56.3",
