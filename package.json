@@ -1,0 +1,21 @@
+{
+  "name": "smallest-possible-build",
+  "version": "0.0.0",
+  "description": "A simple project showing the smallest possible builds possible",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "npm run clean && npm run build:webpack && npm run build:rollup",
+    "build:webpack": "webpack",
+    "build:rollup": "rollup -c",
+    "clean": "rm -rf umd/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "2.56.3",
+    "rollup-plugin-terser": "7.0.2",
+    "webpack": "5.52.1",
+    "webpack-cli": "4.8.0"
+  }
+}
